@@ -1,0 +1,46 @@
+body,html{
+    height:100%;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family: 'roboto',sans-serif;
+}
+.bg-image{
+    background-image: url("geethanjali.jpg");
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+filter: blur(10px);
+    
+}
+.bg-text{
+    background-color: rgb(0,0,0);
+    background-color: rgba(251, 187, 50, 0);
+    color:black;
+    font-weight:bolder;
+    border: 3px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    z-index: 2;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+}
+
+.form{
+    position:absolute;
+    top:50%;
+    left: 25%;
+    transform:translate(-50%,-50%);
+    width: 480px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 30px 5px 30px;
+    box-shadow: 0px 5px 20px 10px rgba(0,0,0,0.2);
+}
